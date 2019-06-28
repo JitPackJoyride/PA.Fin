@@ -2,7 +2,8 @@ const path = require('path');
 const fs = require('fs');
 const solc = require('solc');
 
-const inboxPath = path.resolve(__dirname, 'contracts');
-const source = fs.readFileSync(inboxPath, 'utf8');
+const personalInformationPath = path.resolve(__dirname, 'contracts', 'PersonalInformation.sol');
+console.log('the path is ', personalInformationPath);
+const source = fs.readFileSync(personalInformationPath, 'utf8');
 
-console.log(solc.compile(source, 1));
+module.exports = solc.compile(source, 1).contracts[':PersonalInformation'];
