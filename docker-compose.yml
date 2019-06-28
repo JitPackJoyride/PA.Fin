@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+    
+    node:
+        image: node:10.16.0-jessie
+        volumes:
+            - .:/app
+        working_dir: /app 
+        expose:
+            - 80
+        command: npm start
