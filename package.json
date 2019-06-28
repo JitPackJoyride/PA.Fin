@@ -1,0 +1,10 @@
+{
+  "name": "docker-base-template",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+      "start": "node src/index.js"
+  },
+  "author": "ZK8",
+  "license": "MIT"
+}
