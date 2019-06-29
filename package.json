@@ -9,9 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "ganache-cli": "^6.4.4",
-    "microsoft-cognitiveservices-speech-sdk": "^1.6.0",
     "mocha": "^6.1.4",
-    "python-shell": "^1.0.7",
     "solc": "^0.4.25",
     "truffle-hdwallet-provider": "0.0.6",
     "web3": "^1.0.0-beta.35"
